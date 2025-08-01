@@ -25,6 +25,7 @@ export const defaultPageVisibility: PageConfig[] = [
     name: 'FAQs',
     description: 'Frequently asked questions',
     isVisible: true
+    
   },
   {
     path: '/for-clients',
