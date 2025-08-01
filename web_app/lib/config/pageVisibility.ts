@@ -12,49 +12,50 @@ export const defaultPageVisibility: PageConfig[] = [
     path: '/about',
     name: 'About',
     description: 'Company information, mission, and values',
-    isVisible: false // Hidden by default
+    isVisible: true // Hidden by default
   },
   {
     path: '/blog',
     name: 'Blog',
     description: 'Beauty insights and industry news',
-    isVisible: false
+    isVisible: true
   },
   {
     path: '/faqs',
     name: 'FAQs',
     description: 'Frequently asked questions',
-    isVisible: false
+    isVisible: true
+    
   },
   {
     path: '/for-clients',
     name: 'For Clients',
     description: 'Information for beauty service clients',
-    isVisible: false
+    isVisible: true
   },
   {
     path: '/for-professionals',
     name: 'For Professionals',
     description: 'Resources for beauty professionals',
-    isVisible: false
+    isVisible: true
   },
   {
     path: '/beautician-near-me',
     name: 'Beautician Near Me',
     description: 'Location-based beautician search',
-    isVisible: false
+    isVisible: true
   },
   {
     path: '/terms',
     name: 'Terms of Service',
     description: 'Legal terms and conditions',
-    isVisible: false
+    isVisible: true
   },
   {
     path: '/privacy',
     name: 'Privacy Policy',
     description: 'Privacy and data protection policy',
-    isVisible: false
+    isVisible: true
   }
 ];
 
